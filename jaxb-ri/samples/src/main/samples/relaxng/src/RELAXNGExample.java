@@ -42,7 +42,8 @@ public class RELAXNGExample {
         Object o = context.createUnmarshaller().unmarshal(new File(fileName)); 
         
         // valdiate it. Again, the same procedure regardless of the schema language
-        context.createValidator().validate(o);
+        //This method is deprecated
+        //context.createValidator().validate(o);
         
         // marshal it. Nothing new.
         context.createMarshaller().marshal(o,System.out);
