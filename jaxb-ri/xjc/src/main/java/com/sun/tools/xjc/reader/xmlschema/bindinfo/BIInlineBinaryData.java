@@ -44,5 +44,5 @@ public class BIInlineBinaryData extends AbstractDeclarationImpl {
     public final QName getName() { return NAME; }
 
     /** Name of the declaration. */
-    public static final QName NAME = new QName(Const.getJaxbNsUri(),"inlineBinaryData");
+    public static final QName NAME = new QName(Const.JAKARTA_JAXB_NSURI,"inlineBinaryData");
 }

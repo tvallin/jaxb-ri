@@ -90,7 +90,7 @@ public final class BIEnum extends AbstractDeclarationImpl {
     
     /** Name of this declaration. */
     public static final QName NAME = new QName(
-        Const.getJaxbNsUri(), "enum" );
+        Const.JAKARTA_JAXB_NSURI, "enum" );
 
     // setter method for JAXB runtime
     @XmlElement(name="typesafeEnumMember")
